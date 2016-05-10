@@ -17,12 +17,12 @@ Configuration MySampleConfig {
         #Create two files and validate the content of the files 
 	    File MyFile {
                 DestinationPath = "C:\MyFile.txt"
-                Contents = "Hello MMS"
+                Contents = "Hello world"
         }
 
         File MyOtherFile {
             DestinationPath = "C:\MyOtherFile.txt"
-            Contents = "Goodbye MMS"
+            Contents = "Goodbye world"
         }
 
         #Validate that MMA Agent is installed, running & sending data to Log Analytics
