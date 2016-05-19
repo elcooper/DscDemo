@@ -22,7 +22,7 @@ Configuration MySampleConfig {
 
         File MyOtherFile {
             DestinationPath = "C:\MyOtherFile.txt"
-            Contents = "Goodbye MMS"
+            Contents = "Goodbye World"
         }
 
         #Validate that MMA Agent is installed, running & sending data to Log Analytics
